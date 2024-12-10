@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Form</title>
+    <style>
+        body {
+            background: linear-gradient(120deg, #84fab0, #8fd3f4); /* Soft gradient background */
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: radial-gradient( circle 918px at 13.1% 25.5%,  rgba(249,107,107,1) 0%, rgba(247,231,172,1) 48.9%, rgba(173,247,172,1) 90% );
+        }
+        form {
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* Form gradient */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            color: white;
+            width: 300px;
+        }
+        input, button {
+            width: 100%;
+            margin: 10px 0;
+        }
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background: linear-gradient(to right, #fdfbfb, #ebedee);
+            color: #333;
+        }
+        button {
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: linear-gradient(90deg, #ff7eb3, #ff758c);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
